@@ -8,7 +8,7 @@ export const ScoreStyles = styled.div`
     width: 250px;
     height: 100px;
 
-    .score {
+    .Score {
         border: 2px solid black;
         background: #fffff0;
     }

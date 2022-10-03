@@ -1,12 +1,19 @@
 import React from 'react';
+import { BoardStyles } from '../styles/BoardStyles';
+import Position from './Position';
 import Score from './Score';
 
 const Board = () => {
 
     return(
-        <div className="Board" style={{ position: 'fixed', width: '100%', height: '100%', background: '#14532d'}}>
-            <Score/>
-        </div>
+        <BoardStyles>
+            <div className="Board">
+                <div className="Position1" style={{ position: 'absolute', right: '50px', top: '50px' }}>
+                    <Position/>
+                </div>
+                <Score/>
+            </div>
+        </BoardStyles>
     )
 }
 
