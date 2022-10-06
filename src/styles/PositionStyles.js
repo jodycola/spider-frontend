@@ -1,10 +1,19 @@
 import styled from 'styled-components';
 
 export const PositionStyles = styled.div`
-    width: 100px;
-    height: 75px;
-
+    
     .Position {
-        background: #aea8a8;
+        color: orange;
+    }
+
+    .P1 {
+        position: relative;
+        left: 2%;
+        bottom: 50%;
+        width: 100px;
+        height: 130px;
+        border: 1px solid white;
+        
+        color: white;
     }
 `

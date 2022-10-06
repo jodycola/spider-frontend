@@ -10,6 +10,7 @@ export const ScoreStyles = styled.div`
 
     .Score {
         border: 2px solid black;
-        background: #fffff0;
+        background: #007D00;
+        color: #FFF;
     }
 `

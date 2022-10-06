@@ -8,9 +8,7 @@ const Board = () => {
     return(
         <BoardStyles>
             <div className="Board">
-                <div className="Position1" style={{ position: 'absolute', right: '50px', top: '50px' }}>
-                    <Position/>
-                </div>
+                <Position/>
                 <Score/>
             </div>
         </BoardStyles>

@@ -1,11 +1,17 @@
 import React from 'react';
+import { PositionStyles } from '../styles/PositionStyles';
 
 const Position = () => {
 
     return (
-        <div className="Position">
-
-        </div>
+        <PositionStyles>
+            <div className="P1">
+                hey
+            </div>
+            <div className="Position">
+                sup
+            </div>
+        </PositionStyles>
     )
 }
 

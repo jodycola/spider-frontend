@@ -6,6 +6,6 @@ export const BoardStyles = styled.div`
         position: fixed;
         width: 100%;
         height: 100%;
-        background: #14532d;
+        background: #009931;
     }
 `
