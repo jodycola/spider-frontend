@@ -16,7 +16,7 @@ const Score = () => {
 
     return (
         <ScoreStyles>
-            <div className="Score">
+            <div className="score">
                 <p> Score: {points} </p>
                 <p> Moves: {moves} </p>
                 {/* <p> {("0" + Math.floor((time / 60000) % 60)).slice(-2)+":"+("0" + Math.floor((time / 2000) % 60)).slice(-2)} </p> */}
