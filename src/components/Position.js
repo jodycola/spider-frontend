@@ -1,6 +1,5 @@
 import React from 'react';
 import { PositionStyles } from '../styles/PositionStyles';
-import card from '../assests/card_back.jpeg';
 
 const Position = () => {
 
@@ -8,7 +7,7 @@ const Position = () => {
         <PositionStyles>
             <div className="position">
                 <div className="position-1">
-                    <img src={card}/>
+                    1
                 </div>
                 <div className="position-2">
                     2

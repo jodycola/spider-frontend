@@ -8,10 +8,12 @@ const Board = () => {
 
     return(
         <BoardStyles>
-            <div className="board">
+            <div className="top">
                 <Position/>
-                <Deck/>
+            </div>
+            <div className="bottom">
                 <Score/>
+                <Deck/>
             </div>
         </BoardStyles>
     )

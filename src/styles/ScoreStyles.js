@@ -2,12 +2,10 @@ import styled from 'styled-components';
 
 export const ScoreStyles = styled.div`
 
-.score {
-        position: relative; 
-        margin-left: auto;
-        margin-right: auto;
+    .score {
+        position: relative;
+        padding: 5px;
         width: 250px;
-        height: 90px;
         top: 10px;
         border: 2px solid black;
         background: #007D00;
