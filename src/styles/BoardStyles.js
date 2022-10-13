@@ -12,8 +12,7 @@ export const BoardStyles = styled.div`
         display: flex;
         justify-content: center;
         align-content: center;
-        padding: 5px;
-        position: fixed;
+        padding: 10px;
         width: 100%;
         height: 20%;
         background #009931;
